@@ -91,7 +91,14 @@
   gap: 10px;
 }
 .line {
-  width: 1px;
+  width: 0.5px;
   background: var(--border-line);
-  height: 50px;
+  height: 30px;
+}
+.forward-modal {
+  rotate: 90deg;
+}
+.navbar-right_part {
+  display: flex;
+  align-items: center;
 }
