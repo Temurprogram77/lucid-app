@@ -137,9 +137,10 @@
   width: 100px;
   height: 70px;
   position: absolute;
-  top: 60px;
+  top: 45px;
   display: none;
   border-radius: 5px;
+  transition: all 0.3s;
   box-shadow: 0 0 10px 1px #c0c0c0;
 }
 .block {
@@ -148,7 +149,7 @@
 .up {
   transition: rotate 0.3s;
 }
-.transfomr-y {
+.transform-y {
   transform: translateY(10px);
 }
 .rotate {
