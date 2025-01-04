@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter";
+}
+:root {
+  --bg-blue: #0c7cba;
+  --bg-grey: #999999;
+  --bg-yellow: #fcc438;
+  --bg-green: #7ab648;
+  --bg-red: #c92d39;
+  --bg-button: #3c41c2;
+  --account-bg: #ffe342;
+  --hover-bg: #9ea0a33b;
+
+  --text-grey: #282c33;
+}
+.navbar {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-left_part {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.logo-box {
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  transition: background 0.1s;
+  cursor: pointer;
+}
+.logo-box:hover {
+  background-color: var(--hover-bg);
+}
+.draft-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.draft-box p {
+  font-size: 13px;
+  font-weight: 400;
+}
+.blue {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--bg-blue);
+}
+.inp {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.size {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 300;
+  text-decoration: none;
+  color: var(--text-grey);
+}
+.pages {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.two-icon {
+  display: flex;
+  gap: 10px;
+}
+.icon {
+  cursor: pointer;
+  transition: background 0.1s;
+  padding: 3px 5px;
+  border-radius: 7px;
+}
+.icon:hover {
+  background: var(--hover-bg);
+}
+.menu-group {
+  display: flex;
+  gap: 10px;
+}
