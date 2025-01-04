@@ -130,6 +130,14 @@
   font-weight: 600;
   background: var(--account-bg);
 }
+.modal-mirror {
+  position: relative;
+}
 .modal-home {
-  
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  top: 60px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 1px #c0c0c0;
 }
