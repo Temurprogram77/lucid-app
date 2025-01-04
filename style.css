@@ -16,7 +16,7 @@
   --hover-bg: #9ea0a33b;
 
   --text-grey: #282c33;
-  --border-line: #DFE3E8;
+  --border-line: #dfe3e8;
 }
 .navbar {
   margin: 10px;
@@ -101,4 +101,7 @@
 .navbar-right_part {
   display: flex;
   align-items: center;
+}
+.cursor {
+  cursor: pointer;
 }
