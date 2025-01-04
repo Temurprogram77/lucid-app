@@ -138,6 +138,20 @@
   height: 70px;
   position: absolute;
   top: 60px;
+  display: none;
   border-radius: 5px;
   box-shadow: 0 0 10px 1px #c0c0c0;
+}
+.block {
+  display: block;
+}
+.up {
+  transition: rotate 0.3s;
+}
+.transfomr-y {
+  transform: translateY(10px);
+}
+.rotate {
+  transition: rotate 0.3s;
+  rotate: -180deg;
 }
