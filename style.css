@@ -91,7 +91,6 @@
   gap: 10px;
 }
 .line {
-  margin: 0 10px;
   width: 1px;
   background: var(--border-line);
   height: 30px;
@@ -130,4 +129,7 @@
   border-radius: 50%;
   font-weight: 600;
   background: var(--account-bg);
+}
+.modal-home {
+  
 }
