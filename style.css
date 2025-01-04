@@ -16,6 +16,7 @@
   --hover-bg: #9ea0a33b;
 
   --text-grey: #282c33;
+  --border-line: #DFE3E8;
 }
 .navbar {
   margin: 10px;
@@ -88,4 +89,9 @@
 .menu-group {
   display: flex;
   gap: 10px;
+}
+.line {
+  width: 1px;
+  background: var(--border-line);
+  height: 50px;
 }
