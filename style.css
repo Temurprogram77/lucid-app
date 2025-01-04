@@ -105,3 +105,19 @@
 .cursor {
   cursor: pointer;
 }
+.share {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 15px;
+  color: #fff;
+  background: var(--bg-button);
+}
+.link_and_share {
+  border: 2px solid var(--bg-button);
+  display: flex;
+  align-items: center;
+}
+.link {
+  padding: 0px 6px;
+}
